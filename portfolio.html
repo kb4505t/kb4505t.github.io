@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaleb Teka | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav container">
+      <div class="logo">YOUR<span>PORTFOLIO</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="tag">Hello, I’m</p>
+      <h1>Kaleb Teka</h1>
+      <p class="subtitle">Software Developer | Java & DSA Enthusiast</p>
+      <p class="summary">
+        I build clean and practical solutions while learning software engineering,
+        data structures, and modern development tools.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn ghost">Hire Me</a>
+        <a href="Kaleb-Teka-CV.pdf" class="btn ghost" download>Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>
+        I’m a motivated developer focused on Java fundamentals, object-oriented design,
+        and problem solving with algorithms. I enjoy turning ideas into working software
+        and continuously improving my coding skills.
+      </p>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span>Java</span>
+        <span>OOP</span>
+        <span>Data Structures</span>
+        <span>Algorithms</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Git</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Java OOP Account Management</h3>
+          <p>Developed a Java console-based account model using classes, encapsulation, and methods to practice core object-oriented programming concepts.</p>
+        </article>
+        <article class="card">
+          <h3>Searching Algorithms in C++</h3>
+          <p>Implemented linear, binary, and interpolation search algorithms and compared their logic and use cases through hands-on DSA exercises.</p>
+        </article>
+        <article class="card">
+          <h3>Sorting Algorithms in C++</h3>
+          <p>Built bubble sort and selection sort implementations to strengthen understanding of algorithm steps, time complexity, and array manipulation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>Let’s work together on your next project.</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:kkalebteka@gmail.com">kkalebteka@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/kb4505t" target="_blank" rel="noopener noreferrer">github.com/kb4505t</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/kaleb-teka-59b0523b8" target="_blank" rel="noopener noreferrer">linkedin.com/in/kaleb-teka-59b0523b8</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Kaleb Teka. All rights reserved.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
